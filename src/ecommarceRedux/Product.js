@@ -11,17 +11,21 @@ function Product() {
 
   console.log(pro.products);
   return (
-    <>
+    <div className=" product-box">
       {pro.products.map((product, index) => {
+        
         return (
+         
+
           <div className="product-row" key={index}>
             <img src={product.image} alt={product.name}></img>
             <h3>{product.title}</h3>
             <h3>{product.price}</h3>
           </div>
+         
         );
       })}
-    </>
+    </div>
   );
 }
 

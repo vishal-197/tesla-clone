@@ -1,0 +1,14 @@
+.product-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-row {
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-row img{
+    width: 100%;
+}
